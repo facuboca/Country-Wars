@@ -406,6 +406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 154108587}
   - component: {fileID: 154108588}
+  - component: {fileID: 154108589}
   m_Layer: 5
   m_Name: Barra de Vida
   m_TagString: Untagged
@@ -485,6 +486,18 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &154108589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154108586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b812af001489f3d4e88c59d07ffbea6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BarraDeVidaAlemania
 --- !u!1 &171127449
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,6 +538,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 194580224}
+  - component: {fileID: 194580225}
   m_Layer: 0
   m_Name: SpawnPointAlemania 2
   m_TagString: Untagged
@@ -547,6 +561,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1075453314}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &194580225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194580223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d9349ac99a57a34cbca6c21003a0b73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerAlemania
+  prefabTropaAlemania: {fileID: 0}
+  tiempoEntreSpawns: 5
+  retrasoInicial: 2
 --- !u!1 &206997524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1667,6 +1696,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 712392865}
+  - component: {fileID: 712392866}
   m_Layer: 0
   m_Name: SpawnPointAlemania 1
   m_TagString: Untagged
@@ -1689,6 +1719,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1075453314}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &712392866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712392864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d9349ac99a57a34cbca6c21003a0b73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerAlemania
+  prefabTropaAlemania: {fileID: 0}
+  tiempoEntreSpawns: 5
+  retrasoInicial: 2
 --- !u!1 &714834065
 GameObject:
   m_ObjectHideFlags: 0
@@ -1789,6 +1834,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 989802579}
+  - component: {fileID: 989802580}
   m_Layer: 0
   m_Name: SpawnPointAlemania 3
   m_TagString: Untagged
@@ -1811,6 +1857,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1075453314}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &989802580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989802578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d9349ac99a57a34cbca6c21003a0b73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerAlemania
+  prefabTropaAlemania: {fileID: 0}
+  tiempoEntreSpawns: 5
+  retrasoInicial: 2
 --- !u!1 &1013209903
 GameObject:
   m_ObjectHideFlags: 0
@@ -2658,6 +2719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TropaSpawner
   prefabGaucho: {fileID: 9208855985739352694, guid: 1bf587cc51485dc42adc5a284fbb5412, type: 3}
+  prefabMessi: {fileID: 0}
 --- !u!1 &1359854865
 GameObject:
   m_ObjectHideFlags: 0
@@ -3484,8 +3546,32 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6035741978561568459, guid: 2c657dc57f8c12046b5fc128234ff08a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 989802579}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4495737066942339055, guid: 2c657dc57f8c12046b5fc128234ff08a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6439728417533253668}
   m_SourcePrefab: {fileID: 100100000, guid: 2c657dc57f8c12046b5fc128234ff08a, type: 3}
+--- !u!1 &6439728417533253667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4495737066942339055, guid: 2c657dc57f8c12046b5fc128234ff08a, type: 3}
+  m_PrefabInstance: {fileID: 6439728417533253666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6439728417533253668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6439728417533253667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb07decd2d9d9714bba4db3a3de5cebe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BanderaAlemania
+  barraDeVida: {fileID: 154108589}
+  vidaMaxima: 100
+  pantallaVictoria: {fileID: 115942539}
+  interfazDeJuego: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

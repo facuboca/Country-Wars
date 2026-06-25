@@ -1058,6 +1058,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 549837836}
+  - component: {fileID: 549837837}
   m_Layer: 0
   m_Name: SpawnPointBrasil 2
   m_TagString: Untagged
@@ -1080,6 +1081,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1813123658042889647}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &549837837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549837835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d40b3a9b153266747bd7ce8c3f1927a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerBrasil
+  prefabTropaBrasil: {fileID: 0}
+  tiempoEntreSpawns: 5
+  retrasoInicial: 2
 --- !u!1 &564497093
 GameObject:
   m_ObjectHideFlags: 0
@@ -1437,6 +1453,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 705686231}
+  - component: {fileID: 705686232}
   m_Layer: 0
   m_Name: SpawnPointBrasil 1
   m_TagString: Untagged
@@ -1459,6 +1476,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1813123658042889647}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &705686232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705686230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d40b3a9b153266747bd7ce8c3f1927a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerBrasil
+  prefabTropaBrasil: {fileID: 0}
+  tiempoEntreSpawns: 5
+  retrasoInicial: 2
 --- !u!1 &970260553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,6 +1501,7 @@ GameObject:
   m_Component:
   - component: {fileID: 970260554}
   - component: {fileID: 970260555}
+  - component: {fileID: 970260556}
   m_Layer: 5
   m_Name: Barra de Vida
   m_TagString: Untagged
@@ -1548,6 +1581,18 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &970260556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970260553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1889529f42061fb488fb9051f8aae30c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BarraDeVidaBrasil
 --- !u!1 &993354370
 GameObject:
   m_ObjectHideFlags: 0
@@ -2198,6 +2243,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1363923301}
+  - component: {fileID: 1363923302}
   m_Layer: 0
   m_Name: SpawnPointBrasil 3
   m_TagString: Untagged
@@ -2220,6 +2266,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1813123658042889647}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1363923302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363923300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d40b3a9b153266747bd7ce8c3f1927a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerBrasil
+  prefabTropaBrasil: {fileID: 0}
+  tiempoEntreSpawns: 5
+  retrasoInicial: 2
 --- !u!1 &1397436231
 GameObject:
   m_ObjectHideFlags: 0
@@ -2656,6 +2717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TropaSpawner
   prefabGaucho: {fileID: 9208855985739352694, guid: 1bf587cc51485dc42adc5a284fbb5412, type: 3}
+  prefabMessi: {fileID: 0}
 --- !u!4 &1657524575
 Transform:
   m_ObjectHideFlags: 0
@@ -3463,6 +3525,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2543073203072734881, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2750068800138879403, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
       propertyPath: m_Name
       value: Bandera Brasil_0
@@ -3486,6 +3552,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2750068800138879403, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1813123658042889648}
+    - targetCorrespondingSourceObject: {fileID: 2750068800138879403, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1813123658042889650}
   m_SourcePrefab: {fileID: 100100000, guid: 10ba766bb6407c941920d19b9896df98, type: 3}
 --- !u!1 &1813123658042889646 stripped
 GameObject:
@@ -3570,6 +3639,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.36, y: 3.73}
   m_EdgeRadius: 0
+--- !u!114 &1813123658042889650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813123658042889646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f1d2ab8f423614c874b1529a8d2541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BanderaBrasil
+  barraDeVida: {fileID: 970260556}
+  vidaMaxima: 100
+  pantallaVictoria: {fileID: 1397436231}
+  interfazDeJuego: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
