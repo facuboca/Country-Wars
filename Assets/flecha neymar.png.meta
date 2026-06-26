@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9935f23e108d0454eb831a55b5b54a86
+guid: ac83f8d6acbb7e6488b53bb63087308a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 911582748386825794
-    second: serpiente_0
+      213: -1086201838329624981
+    second: flecha neymar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: serpiente_0
+      name: flecha neymar_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 10
-        width: 212
-        height: 72
+        x: 1
+        y: 2
+        width: 65
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24698fc0ea796ac00800000000000000
-      internalID: 911582748386825794
+      spriteID: b668cf7de290de0f0800000000000000
+      internalID: -1086201838329624981
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      serpiente_0: 911582748386825794
+      flecha neymar_0: -1086201838329624981
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

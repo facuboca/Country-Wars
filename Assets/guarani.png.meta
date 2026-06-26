@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b247b76ba062fd8418688f870b7e0601
+guid: faa5d0ccd0ece30498ae85af4fc90f9b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5285938228391771077
-    second: capoeira brasilero_0
+      213: 7832123615262309907
+    second: guarani_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: capoeira brasilero_0
+      name: guarani_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 4
-        width: 54
-        height: 91
+        x: 1
+        y: 1
+        width: 44
+        height: 86
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b340d08ff2394a6b0800000000000000
-      internalID: -5285938228391771077
+      spriteID: 31e78a48eea41bc60800000000000000
+      internalID: 7832123615262309907
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      capoeira brasilero_0: -5285938228391771077
+      guarani_0: 7832123615262309907
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

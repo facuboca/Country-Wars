@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 74d240c1313c9da40a8a3130c618963b
+guid: 65ce112b715f6db4fbfe69b4971ec738
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8127645386367152688
-    second: neymar_0
+      213: -5285938228391771077
+    second: capoeira brasilero_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: neymar_0
+      name: capoeira brasilero_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 12
-        width: 72
-        height: 93
+        x: 10
+        y: 4
+        width: 54
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 032b1c2ba623bc070800000000000000
-      internalID: 8127645386367152688
+      spriteID: b340d08ff2394a6b0800000000000000
+      internalID: -5285938228391771077
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      neymar_0: 8127645386367152688
+      capoeira brasilero_0: -5285938228391771077
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
