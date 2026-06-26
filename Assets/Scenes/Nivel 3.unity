@@ -1204,7 +1204,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0859a96f5ae444a4988dc6583d499bf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerHolandes
-  prefabHolandes: {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
+  prefabsEnemigos:
+  - {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
+  - {fileID: 6100448686325279208, guid: f3027ba75760c4147bdd2c9f4e7a96dc, type: 3}
+  - {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
   puntosSpawn:
   - {fileID: 749611720}
   - {fileID: 995170661}
@@ -2330,6 +2333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerConMouse
   prefabGaucho: {fileID: 0}
   prefabMessi: {fileID: 4889032490189702982, guid: eb040f02bb276554fab0f21aabbb238f, type: 3}
+  prefabEspadachinArgentino: {fileID: 0}
 --- !u!4 &1291339085
 Transform:
   m_ObjectHideFlags: 0
@@ -3675,6 +3679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TropaSpawner
   prefabGaucho: {fileID: 9208855985739352694, guid: 1bf587cc51485dc42adc5a284fbb5412, type: 3}
   prefabMessi: {fileID: 0}
+  prefabEspadachinArgentino: {fileID: 0}
 --- !u!4 &2076480100
 Transform:
   m_ObjectHideFlags: 0

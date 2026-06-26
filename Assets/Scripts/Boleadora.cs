@@ -30,71 +30,122 @@ public class Boleadora : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         // ==========================================
-        // SECCIÓN JAPÓN Y HOLANDA
+        // JAPÓN
         // ==========================================
 
-        // ESPADACHÍN JAPONÉS
-        TropaJaponesa enemigo = other.GetComponent<TropaJaponesa>();
+        TropaJaponesa enemigo =
+            other.GetComponent<TropaJaponesa>();
+
         if (enemigo != null)
         {
             enemigo.RecibirDanio(danio);
-            enemigo.AplicarLentitud(velocidadLenta, duracionLentitud);
+            enemigo.AplicarLentitud(
+                velocidadLenta,
+                duracionLentitud
+            );
+
             Destroy(gameObject);
             return;
         }
 
-        // ESPADACHÍN HOLANDÉS
-        EspadachinHolandes holandes = other.GetComponent<EspadachinHolandes>();
-        if (holandes != null)
-        {
-            holandes.RecibirDanio(danio);
-            holandes.AplicarLentitud(velocidadLenta, duracionLentitud);
-            Destroy(gameObject);
-            return;
-        }
+        Geisha geisha =
+            other.GetComponent<Geisha>();
 
-        // GEISHA
-        Geisha geisha = other.GetComponent<Geisha>();
         if (geisha != null)
         {
             geisha.RecibirDanio(danio);
+
             Destroy(gameObject);
             return;
         }
 
-        // BANDERA JAPONESA
-        BanderaJaponesa banderaJapon = other.GetComponent<BanderaJaponesa>();
+        BanderaJaponesa banderaJapon =
+            other.GetComponent<BanderaJaponesa>();
+
         if (banderaJapon != null)
         {
             banderaJapon.RecibirDanio(danio);
-            Destroy(gameObject);
-            return; // Agregado return para mantener orden
-        }
-
-        // ==========================================
-        // NUEVA SECCIÓN ITALIA
-        // ==========================================
-
-        // ESPADACHÍN ITALIANO (Daño + Ralentización)
-        EspadachinItaliano enemigoItaliano = other.GetComponent<EspadachinItaliano>();
-        if (enemigoItaliano != null)
-        {
-            enemigoItaliano.RecibirDanio(danio);
-            
-            // Nota: Para que esta linea no te de error, tu script 'EspadachinItaliano' 
-            // debe tener una funcion publica llamada 'AplicarLentitud' igual que los otros.
-            // Si todavia no la tiene, avisame y la agregamos en un toque.
-            enemigoItaliano.AplicarLentitud(velocidadLenta, duracionLentitud);
 
             Destroy(gameObject);
             return;
         }
 
-        // BANDERA ITALIANA (Solo daño)
-        BanderaItalia banderaItaliana = other.GetComponent<BanderaItalia>();
+        // ==========================================
+        // HOLANDA
+        // ==========================================
+
+        EspadachinHolandes holandes =
+            other.GetComponent<EspadachinHolandes>();
+
+        if (holandes != null)
+        {
+            holandes.RecibirDanio(danio);
+            holandes.AplicarLentitud(
+                velocidadLenta,
+                duracionLentitud
+            );
+
+            Destroy(gameObject);
+            return;
+        }
+
+        ArqueroHolandes arquero =
+            other.GetComponent<ArqueroHolandes>();
+
+        if (arquero != null)
+        {
+            arquero.RecibirDanio(danio);
+            arquero.AplicarLentitud(
+                velocidadLenta,
+                duracionLentitud
+            );
+
+            Destroy(gameObject);
+            return;
+        }
+
+        // ==========================================
+        // ITALIA
+        // ==========================================
+
+        EspadachinItaliano enemigoItaliano =
+            other.GetComponent<EspadachinItaliano>();
+
+        if (enemigoItaliano != null)
+        {
+            enemigoItaliano.RecibirDanio(danio);
+            enemigoItaliano.AplicarLentitud(
+                velocidadLenta,
+                duracionLentitud
+            );
+
+            Destroy(gameObject);
+            return;
+        }
+
+        // PIZZERO ITALIANO
+        PizzeroItaliano pizzero =
+            other.GetComponent<PizzeroItaliano>();
+
+        if (pizzero != null)
+        {
+            pizzero.RecibirDanio(danio);
+            pizzero.AplicarLentitud(
+                velocidadLenta,
+                duracionLentitud
+            );
+
+            Destroy(gameObject);
+            return;
+        }
+
+        BanderaItalia banderaItaliana =
+            other.GetComponent<BanderaItalia>();
+
         if (banderaItaliana != null)
         {
-            banderaItaliana.RecibirDanio(danio); // Resta vida e impacta la barra de UI
+            banderaItaliana.RecibirDanio(danio);
+
             Destroy(gameObject);
             return;
         }

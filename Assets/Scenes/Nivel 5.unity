@@ -364,11 +364,10 @@ MonoBehaviour:
   prefabsEnemigos:
   - {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
   - {fileID: 6167121503605704444, guid: a91cb676561c9d54cb4ac7dea28015ad, type: 3}
+  - {fileID: 6100448686325279208, guid: f3027ba75760c4147bdd2c9f4e7a96dc, type: 3}
   puntosSpawn:
   - {fileID: 65353397}
-  - {fileID: 0}
-  - {fileID: 0}
-  tiempoSpawn: 2
+  tiempoSpawn: 4
 --- !u!1 &80763634
 GameObject:
   m_ObjectHideFlags: 0
@@ -1868,11 +1867,10 @@ MonoBehaviour:
   prefabsEnemigos:
   - {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
   - {fileID: 6167121503605704444, guid: a91cb676561c9d54cb4ac7dea28015ad, type: 3}
+  - {fileID: 6100448686325279208, guid: f3027ba75760c4147bdd2c9f4e7a96dc, type: 3}
   puntosSpawn:
   - {fileID: 873917418}
-  - {fileID: 0}
-  - {fileID: 0}
-  tiempoSpawn: 2
+  tiempoSpawn: 4
 --- !u!1 &874401635
 GameObject:
   m_ObjectHideFlags: 0
@@ -2023,11 +2021,10 @@ MonoBehaviour:
   prefabsEnemigos:
   - {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
   - {fileID: 6167121503605704444, guid: a91cb676561c9d54cb4ac7dea28015ad, type: 3}
+  - {fileID: 6100448686325279208, guid: f3027ba75760c4147bdd2c9f4e7a96dc, type: 3}
   puntosSpawn:
   - {fileID: 955865976}
-  - {fileID: 0}
-  - {fileID: 0}
-  tiempoSpawn: 2
+  tiempoSpawn: 4
 --- !u!1 &1011009155
 GameObject:
   m_ObjectHideFlags: 0
@@ -2266,6 +2263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerConMouse
   prefabGaucho: {fileID: 0}
   prefabMessi: {fileID: 4889032490189702982, guid: eb040f02bb276554fab0f21aabbb238f, type: 3}
+  prefabEspadachinArgentino: {fileID: 0}
 --- !u!4 &1051766320
 Transform:
   m_ObjectHideFlags: 0
@@ -3830,6 +3828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TropaSpawner
   prefabGaucho: {fileID: 9208855985739352694, guid: 1bf587cc51485dc42adc5a284fbb5412, type: 3}
   prefabMessi: {fileID: 0}
+  prefabEspadachinArgentino: {fileID: 0}
 --- !u!1 &2067739500
 GameObject:
   m_ObjectHideFlags: 0

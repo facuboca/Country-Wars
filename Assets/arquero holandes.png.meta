@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 103407f993bcccb48a761d1a60110669
+guid: 93c02c3c0cf1b7642bdd024c912bb290
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7894574111134488880
-    second: arquero italiano_0
+      213: 9147805414379154339
+    second: arquero holandes_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: arquero italiano_0
+      name: arquero holandes_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 27
-        width: 118
-        height: 206
+        x: 1
+        y: 3
+        width: 72
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d665d45ca6d07290800000000000000
-      internalID: -7894574111134488880
+      spriteID: 3abe676ae8883fe70800000000000000
+      internalID: 9147805414379154339
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      arquero italiano_0: -7894574111134488880
+      arquero holandes_0: 9147805414379154339
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

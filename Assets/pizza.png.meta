@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 06b1b4f0f036d5745bda92596786a773
+guid: 23283ad362e73064e8b61ecd6eaf5fd7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4211417064313262640
-    second: flecha holandes_0
+      213: -6444940296795206775
+    second: pizza_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flecha holandes_0
+      name: pizza_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 12
-        width: 56
-        height: 27
+        x: 10
+        y: 54
+        width: 194
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0321967c185f17a30800000000000000
-      internalID: 4211417064313262640
+      spriteID: 98bcbe262f8fe86a0800000000000000
+      internalID: -6444940296795206775
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      flecha holandes_0: 4211417064313262640
+      pizza_0: -6444940296795206775
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

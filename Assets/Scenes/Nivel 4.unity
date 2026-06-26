@@ -128,6 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 13565774}
+  - component: {fileID: 13565775}
   m_Layer: 0
   m_Name: SpawnPointHolanda 3
   m_TagString: Untagged
@@ -150,6 +151,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1023724045}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &13565775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13565773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0859a96f5ae444a4988dc6583d499bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerHolandes
+  prefabsEnemigos:
+  - {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
+  - {fileID: 6167121503605704444, guid: a91cb676561c9d54cb4ac7dea28015ad, type: 3}
+  - {fileID: 6100448686325279208, guid: f3027ba75760c4147bdd2c9f4e7a96dc, type: 3}
+  puntosSpawn:
+  - {fileID: 13565774}
+  tiempoSpawn: 4
 --- !u!1 &68999662
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,6 +311,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 100068348}
+  - component: {fileID: 100068349}
   m_Layer: 0
   m_Name: SpawnPointHolanda 2
   m_TagString: Untagged
@@ -313,6 +334,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1023724045}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &100068349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100068347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0859a96f5ae444a4988dc6583d499bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnerHolandes
+  prefabsEnemigos:
+  - {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
+  - {fileID: 6167121503605704444, guid: a91cb676561c9d54cb4ac7dea28015ad, type: 3}
+  - {fileID: 6100448686325279208, guid: f3027ba75760c4147bdd2c9f4e7a96dc, type: 3}
+  puntosSpawn:
+  - {fileID: 100068348}
+  tiempoSpawn: 2
 --- !u!1 &233904518
 GameObject:
   m_ObjectHideFlags: 0
@@ -1944,6 +1984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerConMouse
   prefabGaucho: {fileID: 0}
   prefabMessi: {fileID: 4889032490189702982, guid: eb040f02bb276554fab0f21aabbb238f, type: 3}
+  prefabEspadachinArgentino: {fileID: 0}
 --- !u!1 &1297030206
 GameObject:
   m_ObjectHideFlags: 0
@@ -3166,6 +3207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TropaSpawner
   prefabGaucho: {fileID: 9208855985739352694, guid: 1bf587cc51485dc42adc5a284fbb5412, type: 3}
   prefabMessi: {fileID: 0}
+  prefabEspadachinArgentino: {fileID: 0}
 --- !u!1 &1652525381
 GameObject:
   m_ObjectHideFlags: 0
@@ -3794,6 +3836,7 @@ MonoBehaviour:
   prefabsEnemigos:
   - {fileID: 2959612408022381716, guid: 87a4e286279b3694ca32646a460f900b, type: 3}
   - {fileID: 6167121503605704444, guid: a91cb676561c9d54cb4ac7dea28015ad, type: 3}
+  - {fileID: 6100448686325279208, guid: f3027ba75760c4147bdd2c9f4e7a96dc, type: 3}
   puntosSpawn:
   - {fileID: 2100401765}
   - {fileID: 100068348}

@@ -7,6 +7,8 @@ public class SpawnerConMouse : MonoBehaviour
 
     [SerializeField] private GameObject prefabMessi;
 
+    [SerializeField] private GameObject prefabEspadachinArgentino;
+
     private GameObject tropaSeleccionada;
 
     private bool colocandoTropa = false;
@@ -15,7 +17,6 @@ public class SpawnerConMouse : MonoBehaviour
     public void ActivarColocacionGaucho()
     {
         tropaSeleccionada = prefabGaucho;
-
         colocandoTropa = true;
     }
 
@@ -23,7 +24,13 @@ public class SpawnerConMouse : MonoBehaviour
     public void ActivarColocacionMessi()
     {
         tropaSeleccionada = prefabMessi;
+        colocandoTropa = true;
+    }
 
+    // BOTÓN ESPADACHÍN ARGENTINO
+    public void ActivarColocacionEspadachinArgentino()
+    {
+        tropaSeleccionada = prefabEspadachinArgentino;
         colocandoTropa = true;
     }
 

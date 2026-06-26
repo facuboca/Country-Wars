@@ -14,56 +14,87 @@ public class Flecha : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // ==========================================
-        // SECCIÓN HOLANDA (Tus detecciones anteriores)
+        // HOLANDA
         // ==========================================
-        
-        // 1. COMPROBAR SI LE PEGA AL SOLDADO (ESPADACHÍN HOLANDÉS)
-        EspadachinHolandes enemigoHolandes = collision.GetComponent<EspadachinHolandes>();
+
+        // ESPADACHÍN HOLANDÉS
+        EspadachinHolandes enemigoHolandes =
+            collision.GetComponent<EspadachinHolandes>();
+
         if (enemigoHolandes != null)
         {
-            enemigoHolandes.RecibirDanio(danio); 
-            Destroy(gameObject); // La flecha desaparece al impactar
-            return; 
+            enemigoHolandes.RecibirDanio(danio);
+            Destroy(gameObject);
+            return;
         }
 
-        // 2. COMPROBAR SI LE PEGA A LA HOLANDESA
-        Holandesa holandesa = collision.GetComponent<Holandesa>();
+        // ARQUERO HOLANDÉS
+        ArqueroHolandes arqueroHolandes =
+            collision.GetComponent<ArqueroHolandes>();
+
+        if (arqueroHolandes != null)
+        {
+            arqueroHolandes.RecibirDanio(danio);
+            Destroy(gameObject);
+            return;
+        }
+
+        // HOLANDESA
+        Holandesa holandesa =
+            collision.GetComponent<Holandesa>();
+
         if (holandesa != null)
         {
-            holandesa.RecibirDanio(danio); 
-            Destroy(gameObject); 
+            holandesa.RecibirDanio(danio);
+            Destroy(gameObject);
             return;
         }
 
-        // 3. COMPROBAR SI LE PEGA A LA BANDERA HOLANDESA
-        BanderaHolandesa banderaHolandesa = collision.GetComponent<BanderaHolandesa>();
+        // BANDERA HOLANDESA
+        BanderaHolandesa banderaHolandesa =
+            collision.GetComponent<BanderaHolandesa>();
+
         if (banderaHolandesa != null)
         {
-            banderaHolandesa.RecibirDanio(danio); 
-            Destroy(gameObject); 
+            banderaHolandesa.RecibirDanio(danio);
+            Destroy(gameObject);
             return;
         }
 
         // ==========================================
-        // NUEVA SECCIÓN ITALIA (Agregado para este nivel)
+        // ITALIA
         // ==========================================
 
-        // 4. COMPROBAR SI LE PEGA AL ESPADACHÍN ITALIANO
-        EspadachinItaliano enemigoItaliano = collision.GetComponent<EspadachinItaliano>();
+        // ESPADACHÍN ITALIANO
+        EspadachinItaliano enemigoItaliano =
+            collision.GetComponent<EspadachinItaliano>();
+
         if (enemigoItaliano != null)
         {
             enemigoItaliano.RecibirDanio(danio);
-            Destroy(gameObject); // La flecha desaparece
+            Destroy(gameObject);
             return;
         }
 
-        // 5. COMPROBAR SI LE PEGA A LA BANDERA ITALIANA
-        // Acordate de que cambiamos el nombre a "BanderaItalia" para solucionar el error de MonoBehaviour
-        BanderaItalia banderaItaliana = collision.GetComponent<BanderaItalia>();
+        // PIZZERO ITALIANO
+        PizzeroItaliano pizzeroItaliano =
+            collision.GetComponent<PizzeroItaliano>();
+
+        if (pizzeroItaliano != null)
+        {
+            pizzeroItaliano.RecibirDanio(danio);
+            Destroy(gameObject);
+            return;
+        }
+
+        // BANDERA ITALIANA
+        BanderaItalia banderaItaliana =
+            collision.GetComponent<BanderaItalia>();
+
         if (banderaItaliana != null)
         {
-            banderaItaliana.RecibirDanio(danio); // Le resta vida a la bandera y actualiza la barra
-            Destroy(gameObject); // La flecha desaparece
+            banderaItaliana.RecibirDanio(danio);
+            Destroy(gameObject);
             return;
         }
     }
