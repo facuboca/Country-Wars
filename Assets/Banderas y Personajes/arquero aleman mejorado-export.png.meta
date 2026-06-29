@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 3e79b4626fbc5f14a97b773d81a944a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7942242582291932650
+    second: arquero aleman mejorado-export_0
+  - first:
+      213: 2896760163601753442
+    second: arquero aleman mejorado-export_1
+  - first:
+      213: 8849077375393056236
+    second: arquero aleman mejorado-export_2
+  - first:
+      213: -8660065866709635737
+    second: arquero aleman mejorado-export_3
+  - first:
+      213: -7355275433513114443
+    second: arquero aleman mejorado-export_4
+  - first:
+      213: 1829421620657876363
+    second: arquero aleman mejorado-export_5
+  - first:
+      213: 130556306006209519
+    second: arquero aleman mejorado-export_6
+  - first:
+      213: 9059503402077694001
+    second: arquero aleman mejorado-export_7
+  - first:
+      213: -5394367233693674110
+    second: arquero aleman mejorado-export_8
+  - first:
+      213: 5693811418186045778
+    second: arquero aleman mejorado-export_9
+  - first:
+      213: -7072561905919210985
+    second: arquero aleman mejorado-export_10
+  - first:
+      213: 6868517196085251509
+    second: arquero aleman mejorado-export_11
+  - first:
+      213: 955329022486723197
+    second: arquero aleman mejorado-export_12
+  - first:
+      213: -4881094889474040204
+    second: arquero aleman mejorado-export_13
+  - first:
+      213: 7888550322946420063
+    second: arquero aleman mejorado-export_14
+  - first:
+      213: -3489789334515682314
+    second: arquero aleman mejorado-export_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arquero aleman mejorado-export_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 439
+        width: 142
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a1282837c77c190800000000000000
+      internalID: -7942242582291932650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arquero aleman mejorado-export_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 441
+        width: 142
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2652cf6650c533820800000000000000
+      internalID: 2896760163601753442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arquero aleman mejorado-export_2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 441
+        width: 142
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5cf3e0dfc3eca70800000000000000
+      internalID: 8849077375393056236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arquero aleman mejorado-export_3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 153
+        width: 146
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d694b2af341d780800000000000000
+      internalID: -8660065866709635737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arquero aleman mejorado-export_4
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 151
+        width: 130
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b42b4096ffcce990800000000000000
+      internalID: -7355275433513114443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arquero aleman mejorado-export_5
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 279
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d6bb37549636910800000000000000
+      internalID: 1829421620657876363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arquero aleman mejorado-export_6
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 255
+        width: 110
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3ffa2c444dfc100800000000000000
+      internalID: 130556306006209519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arquero aleman mejorado-export_7
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 267
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138a84a4852d9bd70800000000000000
+      internalID: 9059503402077694001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arquero aleman mejorado-export_8
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 265
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2859eafd49b5325b0800000000000000
+      internalID: -5394367233693674110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arquero aleman mejorado-export_9
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 265
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259da07515b740f40800000000000000
+      internalID: 5693811418186045778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arquero aleman mejorado-export_10
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 225
+        width: 110
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ac9b92b6639dd90800000000000000
+      internalID: -7072561905919210985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arquero aleman mejorado-export_11
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 249
+        width: 110
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdc256bfffd15f50800000000000000
+      internalID: 6868517196085251509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arquero aleman mejorado-export_12
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 235
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a31f43fa2024d00800000000000000
+      internalID: 955329022486723197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arquero aleman mejorado-export_13
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 235
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47edce52f0ed24cb0800000000000000
+      internalID: -4881094889474040204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arquero aleman mejorado-export_14
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 231
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5da30039b2c97d60800000000000000
+      internalID: 7888550322946420063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arquero aleman mejorado-export_15
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 225
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3fe370717c19fc0800000000000000
+      internalID: -3489789334515682314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      arquero aleman mejorado-export_0: -7942242582291932650
+      arquero aleman mejorado-export_1: 2896760163601753442
+      arquero aleman mejorado-export_10: -7072561905919210985
+      arquero aleman mejorado-export_11: 6868517196085251509
+      arquero aleman mejorado-export_12: 955329022486723197
+      arquero aleman mejorado-export_13: -4881094889474040204
+      arquero aleman mejorado-export_14: 7888550322946420063
+      arquero aleman mejorado-export_15: -3489789334515682314
+      arquero aleman mejorado-export_2: 8849077375393056236
+      arquero aleman mejorado-export_3: -8660065866709635737
+      arquero aleman mejorado-export_4: -7355275433513114443
+      arquero aleman mejorado-export_5: 1829421620657876363
+      arquero aleman mejorado-export_6: 130556306006209519
+      arquero aleman mejorado-export_7: 9059503402077694001
+      arquero aleman mejorado-export_8: -5394367233693674110
+      arquero aleman mejorado-export_9: 5693811418186045778
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
