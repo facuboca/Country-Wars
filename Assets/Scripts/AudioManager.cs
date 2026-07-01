@@ -75,11 +75,25 @@ public class AudioManager : MonoBehaviour
 
     public void ReproducirMusicaMenu()
     {
+        // Detiene victoria o derrota si todavía están sonando.
+        if (fuenteEfectos != null)
+        {
+            fuenteEfectos.Stop();
+            fuenteEfectos.clip = null;
+        }
+
         ReproducirMusica(musicaMenu);
     }
 
     public void ReproducirMusicaGameplay()
     {
+        // Detiene victoria o derrota si todavía están sonando.
+        if (fuenteEfectos != null)
+        {
+            fuenteEfectos.Stop();
+            fuenteEfectos.clip = null;
+        }
+
         ReproducirMusica(musicaGameplay);
     }
 
@@ -119,18 +133,47 @@ public class AudioManager : MonoBehaviour
 
     public void ReproducirSonidoVictoria()
     {
-        if (fuenteEfectos != null &&
-            sonidoVictoria != null)
+        // Detiene la música del gameplay.
+        if (fuenteMusica != null)
         {
-            fuenteEfectos.PlayOneShot(sonidoVictoria);
+            fuenteMusica.Stop();
+        }
+
+        // Detiene cualquier efecto que estuviera sonando.
+        if (fuenteEfectos != null)
+        {
+            fuenteEfectos.Stop();
+        }
+
+        // Reproduce solamente la victoria.
+        if (fuenteEfectos != null && sonidoVictoria != null)
+        {
+            fuenteEfectos.clip = sonidoVictoria;
+            fuenteEfectos.loop = false;
+            fuenteEfectos.Play();
         }
     }
+
     public void ReproducirSonidoDerrota()
     {
-        if (fuenteEfectos != null &&
-            sonidoDerrota != null)
+        // Detiene la música del gameplay.
+        if (fuenteMusica != null)
         {
-            fuenteEfectos.PlayOneShot(sonidoDerrota);
+            fuenteMusica.Stop();
+        }
+
+        // Detiene cualquier efecto que estuviera sonando.
+        if (fuenteEfectos != null)
+        {
+            fuenteEfectos.Stop();
+        }
+
+        // Reproduce solamente la derrota.
+        if (fuenteEfectos != null && sonidoDerrota != null)
+        {
+            fuenteEfectos.clip = sonidoDerrota;
+            fuenteEfectos.loop = false;
+            fuenteEfectos.Play();
         }
     }
 }
