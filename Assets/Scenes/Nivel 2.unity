@@ -727,7 +727,6 @@ GameObject:
   - component: {fileID: 170544746}
   - component: {fileID: 170544745}
   - component: {fileID: 170544744}
-  - component: {fileID: 170544743}
   m_Layer: 5
   m_Name: MenuPausa
   m_TagString: Untagged
@@ -735,21 +734,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &170544743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 170544742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a09f879525bcf0c4eba61089de8651fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PausarJuego
-  botonPausa: {fileID: 851713878}
-  menuPausa: {fileID: 170544742}
-  menuOpciones: {fileID: 0}
 --- !u!114 &170544744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1366,53 +1350,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296614131}
   m_CullTransparentMesh: 1
---- !u!1 &374743497
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 374743499}
-  - component: {fileID: 374743498}
-  m_Layer: 0
-  m_Name: SystemPause
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &374743498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 374743497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a09f879525bcf0c4eba61089de8651fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PausarJuego
-  botonPausa: {fileID: 0}
-  menuPausa: {fileID: 0}
-  menuOpciones: {fileID: 0}
---- !u!4 &374743499
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 374743497}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1865, y: 1043, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &374743957
 GameObject:
   m_ObjectHideFlags: 0
@@ -3381,10 +3318,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7038621261555844778, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8318862908208611408, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
       propertyPath: menuPausa
       value: 
@@ -5248,7 +5181,6 @@ SceneRoots:
   - {fileID: 1032193134}
   - {fileID: 8096313266443542239}
   - {fileID: 2038817686}
-  - {fileID: 374743499}
   - {fileID: 2027903244}
   - {fileID: 1127385143}
   - {fileID: 498452109}

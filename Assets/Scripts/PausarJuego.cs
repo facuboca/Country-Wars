@@ -50,6 +50,8 @@ public class PausarJuego : MonoBehaviour
 
     public void Reanudar()
     {
+        Debug.Log("BOTÓN REANUDAR EJECUTADO");
+
         Time.timeScale = 1f;
 
         if (botonPausa != null)
