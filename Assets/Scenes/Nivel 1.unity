@@ -1653,12 +1653,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
   prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 0}
+  prefabGeisha: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
   puntosSpawn:
   - {fileID: 2017569107}
   - {fileID: 893251175}
   - {fileID: 733068355}
-  tiempoSpawn: 3
+  - {fileID: 733068355}
+  - {fileID: 733068355}
+  tiempoSpawn: 5
 --- !u!1001 &783431973
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2109,12 +2111,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
   prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 0}
+  prefabGeisha: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
   puntosSpawn:
   - {fileID: 2017569107}
   - {fileID: 893251175}
   - {fileID: 733068355}
-  tiempoSpawn: 3
+  - {fileID: 733068355}
+  - {fileID: 733068355}
+  tiempoSpawn: 5
 --- !u!224 &1124404861 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3278244657207411496, guid: c02c823cc5ced2d4c8d4ce6b98490b91, type: 3}
@@ -2151,6 +2155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   estadoActual: 0
   botonComenzar: {fileID: 1178296219}
+  cantidadTropasNecesarias: 6
 --- !u!4 &1129242057
 Transform:
   m_ObjectHideFlags: 0
@@ -4138,12 +4143,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerJapones
   prefabJapones: {fileID: 4058597934032911456, guid: e413d841a0cc1ff45abeaea5d1856b90, type: 3}
-  prefabGeisha: {fileID: 0}
+  prefabGeisha: {fileID: 2706735735638473748, guid: d6c81d7c4abf1354da9b0384cb49be47, type: 3}
   puntosSpawn:
   - {fileID: 2017569107}
   - {fileID: 893251175}
   - {fileID: 733068355}
-  tiempoSpawn: 3
+  - {fileID: 733068355}
+  - {fileID: 733068355}
+  tiempoSpawn: 5
 --- !u!1 &2063005939
 GameObject:
   m_ObjectHideFlags: 0

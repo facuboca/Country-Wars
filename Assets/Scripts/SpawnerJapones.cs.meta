@@ -1,2 +1,13 @@
 fileFormatVersion: 2
 guid: fb395378095ebea4cb6b2bfdb7161fcb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - prefabJapones: {fileID: 4058597934032911456, guid: 45a0e1c2c65c4024bb9de49e48ea6e05, type: 3}
+  - prefabGeisha: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
