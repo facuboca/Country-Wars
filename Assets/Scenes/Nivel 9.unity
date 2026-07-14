@@ -632,7 +632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerBrasil
   prefabTropaBrasil: {fileID: 0}
-  tiempoEntreSpawns: 5
+  tiempoEntreSpawns: 4
   retrasoInicial: 2
 --- !u!1 &236277677
 GameObject:
@@ -2008,7 +2008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerBrasil
   prefabTropaBrasil: {fileID: 0}
-  tiempoEntreSpawns: 5
+  tiempoEntreSpawns: 8
   retrasoInicial: 2
 --- !u!1 &610669458
 GameObject:
@@ -3217,7 +3217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnerBrasil
   prefabTropaBrasil: {fileID: 0}
-  tiempoEntreSpawns: 5
+  tiempoEntreSpawns: 6
   retrasoInicial: 2
 --- !u!1 &1046649794
 GameObject:
